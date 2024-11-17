@@ -24,7 +24,8 @@ describe('contract', function () {
       await expect(counter.write.increase())
         .to.emit(counter, 'Increase')
         .withArgs(getAddress(owner.account.address), 1n)
-      expect(await counter.read.counter()).equal(1n)
+      const re = await counter.read.counter()
+      expect(re).equal(1n)
     })
 
     it('not increase', async function () {

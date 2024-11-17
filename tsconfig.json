@@ -15,7 +15,7 @@
     "removeComments": true,
     "resolveJsonModule": true
   },
-  "include": ["index.ts", "src", "abi"],
+  "include": ["src", "abi"],
   "exclude": ["node_modules", "dist"],
   "tsc-alias": {
     "resolveFullPaths": true
