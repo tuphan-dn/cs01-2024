@@ -1,4 +1,4 @@
-# CS01: Dự án chuẩn công nghiệp trên Ethereum - 2024
+# CS01: Dự án chuẩn công nghiệp trên Ethereum | 2024
 
 Trong khoá này, bạn sẽ tiếp xúc với quy trình toàn diện và sát với môi trường công nghiệp, bao gồm phát triển fullstack và blockchain trên Ethereum.
 

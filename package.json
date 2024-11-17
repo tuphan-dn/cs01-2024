@@ -24,6 +24,7 @@
     "chai": "^4.2.0",
     "hardhat": "^2.22.15",
     "hardhat-abi-exporter": "^2.10.1",
+    "hardhat-chai-matchers-viem": "^2.0.8",
     "hardhat-gas-reporter": "^1.0.8",
     "solidity-coverage": "^0.8.0",
     "ts-node": ">=8.0.0",

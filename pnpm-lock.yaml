@@ -49,6 +49,9 @@ devDependencies:
   hardhat-abi-exporter:
     specifier: ^2.10.1
     version: 2.10.1(hardhat@2.22.15)
+  hardhat-chai-matchers-viem:
+    specifier: ^2.0.8
+    version: 2.0.8(@nomicfoundation/hardhat-viem@2.0.5)(chai@4.5.0)(ethers@6.13.4)(hardhat@2.22.15)(viem@2.21.45)
   hardhat-gas-reporter:
     specifier: ^1.0.8
     version: 1.0.10(hardhat@2.22.15)
@@ -2249,6 +2252,26 @@ packages:
       hardhat: 2.22.15(ts-node@10.9.2)(typescript@5.0.4)
     dev: true
 
+  /hardhat-chai-matchers-viem@2.0.8(@nomicfoundation/hardhat-viem@2.0.5)(chai@4.5.0)(ethers@6.13.4)(hardhat@2.22.15)(viem@2.21.45):
+    resolution: {integrity: sha512-ryNgczdWvyt7n/vN/EbwAS1kk4BPV8301Z/cJkL3k4+wwSvCzkfp/hpQAkDu6tQhoxBeGAJO2KpY+pAOx+T39g==}
+    peerDependencies:
+      '@nomicfoundation/hardhat-viem': ^2.0.0
+      chai: ^4.2.0
+      ethers: ^6.1.0
+      hardhat: ^2.9.4
+      viem: ^2.7.6
+    dependencies:
+      '@nomicfoundation/hardhat-viem': 2.0.5(hardhat@2.22.15)(typescript@5.0.4)(viem@2.21.45)
+      '@types/chai-as-promised': 7.1.8
+      chai: 4.5.0
+      chai-as-promised: 7.1.2(chai@4.5.0)
+      deep-eql: 4.1.4
+      ethers: 6.13.4
+      hardhat: 2.22.15(ts-node@10.9.2)(typescript@5.0.4)
+      ordinal: 1.0.3
+      viem: 2.21.45(typescript@5.0.4)
+    dev: true
+
   /hardhat-gas-reporter@1.0.10(hardhat@2.22.15):
     resolution: {integrity: sha512-02N4+So/fZrzJ88ci54GqwVA3Zrf0C9duuTyGt0CFRIh/CdNwbnTgkXkRfojOMLBQ+6t+lBIkgbsOtqMvNwikA==}
     peerDependencies:
@@ -2897,6 +2920,10 @@ packages:
       prelude-ls: 1.1.2
       type-check: 0.3.2
       word-wrap: 1.2.5
+    dev: true
+
+  /ordinal@1.0.3:
+    resolution: {integrity: sha512-cMddMgb2QElm8G7vdaa02jhUNbTSrhsgAGUz1OokD83uJTwSUn+nKoNoKVVaRa08yF6sgfO7Maou1+bgLd9rdQ==}
     dev: true
 
   /os-tmpdir@1.0.2:
