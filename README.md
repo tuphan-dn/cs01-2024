@@ -4,7 +4,7 @@ Trong khoá này, bạn sẽ tiếp xúc với quy trình toàn diện và sát 
 
 [📚 BẮT ĐẦU HỌC](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum)
 
-## Mục lục
+## Nội dung
 
 1. [Smartcontract: Bộ đếm on-chain với Hardhat](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/smartcontract-bo-dem-on-chain-voi-hardhat)
 2. [Kiểm thử](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/kiem-thu)

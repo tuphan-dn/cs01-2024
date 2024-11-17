@@ -11,10 +11,10 @@ dependencies:
 
 devDependencies:
   '@nomicfoundation/hardhat-ignition':
-    specifier: ^0.15.0
+    specifier: ^0.15.7
     version: 0.15.7(@nomicfoundation/hardhat-verify@2.0.11)(hardhat@2.22.15)
   '@nomicfoundation/hardhat-ignition-viem':
-    specifier: ^0.15.0
+    specifier: ^0.15.7
     version: 0.15.7(@nomicfoundation/hardhat-ignition@0.15.7)(@nomicfoundation/hardhat-viem@2.0.5)(@nomicfoundation/ignition-core@0.15.7)(hardhat@2.22.15)(viem@2.21.45)
   '@nomicfoundation/hardhat-network-helpers':
     specifier: ^1.0.0
@@ -43,6 +43,9 @@ devDependencies:
   chai:
     specifier: ^4.2.0
     version: 4.5.0
+  dotenv:
+    specifier: ^16.4.5
+    version: 16.4.5
   hardhat:
     specifier: ^2.22.15
     version: 2.22.15(ts-node@10.9.2)(typescript@5.0.4)
@@ -65,7 +68,7 @@ devDependencies:
     specifier: ~5.0.4
     version: 5.0.4
   viem:
-    specifier: ^2.7.6
+    specifier: ^2.21.45
     version: 2.21.45(typescript@5.0.4)
 
 packages:
@@ -1687,6 +1690,11 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       path-type: 4.0.0
+    dev: true
+
+  /dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+    engines: {node: '>=12'}
     dev: true
 
   /elliptic@6.5.4:
