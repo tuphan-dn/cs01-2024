@@ -6,13 +6,13 @@ Trong khoá này, bạn sẽ tiếp xúc với quy trình toàn diện và sát 
 
 ## Mục lục
 
-1. [Smartcontract: Bộ đếm on-chain với Hardhat](/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/smartcontract-bo-dem-on-chain-voi-hardhat)
-2. [Kiểm thử](/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/kiem-thu)
-3. [Triển khai smartcontract](/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/trien-khai-smartcontract)
-4. [Triển khai SDK](/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/trien-khai-sdk)
-5. [Giao diện DApp](/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/giao-dien-dapp)
-6. [Kết nối ví](/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/ket-noi-vi)
-7. [DevOps và hạ tầng](/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/devops-va-ha-tang)
+1. [Smartcontract: Bộ đếm on-chain với Hardhat](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/smartcontract-bo-dem-on-chain-voi-hardhat)
+2. [Kiểm thử](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/kiem-thu)
+3. [Triển khai smartcontract](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/trien-khai-smartcontract)
+4. [Triển khai SDK](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/trien-khai-sdk)
+5. [Giao diện DApp](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/giao-dien-dapp)
+6. [Kết nối ví](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/ket-noi-vi)
+7. [DevOps và hạ tầng](https://tuphan.dev/blog/cs01-du-an-chuan-cong-nghiep-tren-ethereum/devops-va-ha-tang)
 
 ## Lời nhắn
 
