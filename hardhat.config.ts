@@ -19,7 +19,7 @@ task('abi', 'Build typechain ABI').setAction(async () => {
         file.replace(/(\.json)$/, '.ts'),
         abi
           .replace(/^\[/, 'export const ABI = [')
-          .replace(/\]\n$/, '] as const'),
+          .replace(/\]\n$/, '] as const;'),
       )
     })
 })

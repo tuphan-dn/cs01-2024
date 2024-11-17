@@ -1,16 +1,16 @@
 {
   "name": "cs01-2024",
   "version": "1.0.0",
-  "description": "",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "description": "CS01: Dự án chuẩn công nghiệp trên Ethereum | 2024",
+  "main": "./dist/cjs/src/index.js",
+  "module": "./dist/esm/src/index.js",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "require": "./dist/cjs/index.js",
-      "import": "./dist/esm/index.js"
+      "require": "./dist/cjs/src/index.js",
+      "import": "./dist/esm/src/index.js"
     },
     "./package.json": "./package.json"
   },
@@ -20,9 +20,11 @@
     "build:esm": "tsc -p ./tsconfig.esm.json && tsc-alias -p ./tsconfig.esm.json && echo '{\"type\":\"module\"}' > ./dist/esm/package.json",
     "test": "pnpm build && hardhat test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "Tu Phan <tuphan@gears.bot>",
+  "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-ignition": "^0.15.7",
     "@nomicfoundation/hardhat-ignition-viem": "^0.15.7",
@@ -43,10 +45,10 @@
     "solidity-coverage": "^0.8.0",
     "ts-node": ">=8.0.0",
     "tsc-alias": "^1.8.10",
-    "typescript": "~5.0.4"
+    "typescript": "~5.0.4",
+    "viem": "^2.21.47"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.1.0",
-    "viem": "^2.21.47"
+    "@openzeppelin/contracts": "^5.1.0"
   }
 }
