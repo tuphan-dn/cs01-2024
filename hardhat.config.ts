@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { task, type HardhatUserConfig } from 'hardhat/config'
+import { generatePrivateKey } from 'viem/accounts'
 import '@nomicfoundation/hardhat-toolbox-viem'
 import 'hardhat-abi-exporter'
 import 'hardhat-chai-matchers-viem'
@@ -34,8 +35,8 @@ const config: HardhatUserConfig = {
   },
   networks: {
     holesky: {
-      url: process.env.RPC,
-      accounts: [process.env.PRIVKEY || ''],
+      url: process.env.RPC || '',
+      accounts: [process.env.PRIVKEY || generatePrivateKey()],
     },
   },
 }
